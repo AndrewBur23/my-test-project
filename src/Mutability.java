@@ -42,9 +42,9 @@ public class Mutability {
 
 
         System.out.println(java.util.Arrays.toString(myArr));
-        int[] gfg= o(myArr);
+        int[] gf= o(myArr);
         System.out.println(java.util.Arrays.toString(myArr));
-        System.out.println(java.util.Arrays.toString(gfg));
+        System.out.println(java.util.Arrays.toString(gf));
 
     }
 }
