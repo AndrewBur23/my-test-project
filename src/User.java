@@ -15,3 +15,4 @@ public class User {
         System.out.println("Имя пользователя: " + myUser.getName());
     }
 }
+// инкапсуляция + статическая переменная
