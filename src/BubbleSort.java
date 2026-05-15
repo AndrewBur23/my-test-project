@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class Bouble {
+public class BubbleSort {
     public static void main(String [] args) {
         Scanner input = new Scanner(System.in);
 
@@ -10,7 +10,7 @@ public class Bouble {
 
         int[] array = new int[size];
 
-        System.out.println("Вводи числа через пробел или Enter:");
+        System.out.println("Вводите числа через пробел или Enter:");
         for (int a = 0; a < size; a++) {
             array[a] = input.nextInt();
         }
